@@ -93,8 +93,7 @@ class Header extends HTMLElement {
                                                 <ul class="sub-menu">
                                                 <li><a href="linhas-extrusao.html">Filmes</a></li>
                                                 <li><a href="chapas.html">Chapas</a></li>
-                                                <li><a href="processamento-plastico.html">Reciclados</a></li>
-                                                <li><a href="processamento-plastico.html">Compostos</a></li>
+                                                <li><a href="processamento-plastico.html">Reciclados e Compostos</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
