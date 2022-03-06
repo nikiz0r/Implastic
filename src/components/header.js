@@ -101,6 +101,10 @@ class Header extends HTMLElement {
                                     </li>
 
                                     <li>
+                                        <a href="enterprises.html">Implastic Enterprises</a>
+                                    </li>
+                                    
+                                    <li>
                                         <a href="suporte-tecnico.html">Suporte Técnico</a>
                                     </li>
 

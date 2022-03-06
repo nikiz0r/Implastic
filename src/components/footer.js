@@ -12,7 +12,7 @@ class Footer extends HTMLElement {
                     <div class="container p-t30">
                         <div class="mt-footer-bot-center">
                             <span class="copyrights-text">
-                                    Implastic Comércio Internacional LTDA. Av. Real, 220 - SALA 3, Aldeia da Serra CEP 06429-200, Barueri, São Paulo, Brasil.<br/>
+                                    Implastic Comércio Internacional LTDA. Av. Real, 220, Aldeia da Serra CEP 06429-200, Barueri, São Paulo, Brasil.<br/>
                                     © <span id="currentYear">2018</span> Implastic LTDA. Todos os direitos reservados.
                             </span>
                         </div>
