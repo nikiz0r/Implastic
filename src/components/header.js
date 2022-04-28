@@ -97,6 +97,7 @@ class Header extends HTMLElement {
                                                 <li><a href="processamento-plastico.html">Reciclados e Compostos</a></li>
                                                 </ul>
                                             </li>
+                                            <li><a href="eletroporador.html">Eletroporador Vet CP 125</a></li>
                                         </ul>
                                     </li>
 
