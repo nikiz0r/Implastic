@@ -87,7 +87,6 @@ class Header extends HTMLElement {
                                             <li><a href="sistemas-ir.html">Sistemas IR</a></li>
                                             <li><a href="sistemas-medicao-espessura.html">Sistemas para Medição de Espessura e Gramatura</a></li>
                                             <li><a href="equip-extrusao.html">Equipamentos para Extrusão</a></li>
-                                            <li><a href="rebobinadeiras.html">Rebobinadeiras de Alta Velocidade</a></li>
                                             <li><a href="impressoras.html">Impressoras</a></li>
                                             <li>
                                                 <a href="javascript:;">Linhas de Extrusão<i class="fa fa-chevron-down"></i></a>
