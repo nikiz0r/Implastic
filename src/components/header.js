@@ -7,6 +7,17 @@ class Header extends HTMLElement {
         this.innerHTML = `
             <header class="site-header header-style-6">
 
+                <!-- Overlay -->
+                <div id="overlay"></div>
+                
+                <!-- Popup Content -->
+                <div id="popup">
+                    <a href="https://www.plasticobrasil.com.br/pt/credenciamento.html?utm_source=google-display&utm_medium=cpc&utm_campaign=adsplay_plastico-brasil_credenciamento_display&utm_id=display_credenciamento-plastico-brasil&gad_source=1&gclid=EAIaIQobChMI5IWYgtbdiwMVJlNIAB01eT1yEAAYASAAEgK_dfD_BwE" target="_blank">
+                        <img src="images/popup/popup_feira_internacional.jpeg" alt="Feira Internacional do Plástico">
+                    </a>
+                    <button class="close-btn" onclick="closePopup()">Fechar</button>
+                </div>
+
                 <div class="top-bar top-bar-liner bg-dark">
                     <div class="container">
                         <div class="row">
@@ -124,6 +135,29 @@ class Header extends HTMLElement {
 
             </header>
         `
+
+        this.setupPopup();
+    }
+
+    setupPopup() {
+        // Get the current date
+        const today = new Date();
+        const expirationDate = new Date("2025-03-28");
+
+        // Check if it's before the expiration date AND popup has not been shown in this session
+        if (today < expirationDate && !sessionStorage.getItem("popupShown")) {
+            document.getElementById("popup").style.display = "block";
+            document.getElementById("overlay").style.display = "block";
+
+            // Mark popup as shown in session storage
+            sessionStorage.setItem("popupShown", "true");
+        }
+
+        // Close button functionality
+        document.querySelector(".close-btn").addEventListener("click", () => {
+            document.getElementById("popup").style.display = "none";
+            document.getElementById("overlay").style.display = "none";
+        });
     }
 }
 
