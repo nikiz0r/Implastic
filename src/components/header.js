@@ -109,6 +109,7 @@ class Header extends HTMLElement {
                                             </li>
                                             <li><a href="eletroporador.html">Eletroporador Vet CP 125</a></li>
                                             <li><a href="vetcp3k.html">Eletroporador Vet CP 3K</a></li>
+                                            <li><a href="estl.html">Equipamentos para testes e soluções para transporte e logística</a></li>
                                         </ul>
                                     </li>
 

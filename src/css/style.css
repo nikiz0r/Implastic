@@ -3345,6 +3345,7 @@ ol.list-num-count.list-outline-none>li:before {
 
 .mt-icon-box-wraper .mt-tilte {
 	margin-top: 0;
+	font-size: medium;
 }
 
 /* @media (max-width: 768px) {
